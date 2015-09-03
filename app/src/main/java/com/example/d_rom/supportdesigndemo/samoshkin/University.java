@@ -8,11 +8,11 @@ import java.util.ArrayList;
 public class University {
 
     private String mTitle;
-    private ArrayList<Student> mStudents;
+    private ArrayList<Faculty> mFaculties;
 
-    public University(String _Title, ArrayList<Student> _Students) {
+    public University(String _Title, ArrayList<Faculty> _Faculties) {
         this.mTitle = _Title;
-        this.mStudents = _Students;
+        this.mFaculties = _Faculties;
     }
 
     public String getTitle() {
@@ -23,11 +23,12 @@ public class University {
         this.mTitle = mTitle;
     }
 
-    public ArrayList<Student> getStudents() {
-        return mStudents;
+    public ArrayList<Faculty> getFaculties() {
+        return mFaculties;
     }
 
-    public void setStudents(ArrayList<Student> mStudents) {
-        this.mStudents = mStudents;
+    public void setFaculties(ArrayList<Faculty> mFaculties) {
+        this.mFaculties = mFaculties;
     }
+
 }
