@@ -39,4 +39,9 @@ public class Student {
     public void setLectures(ArrayList<Lecture> mLectures) {
         this.mLectures = mLectures;
     }
+
+    public Lecture getLecture(){
+        Lecture lecture = new Lecture();
+        return lecture;
+    }
 }
