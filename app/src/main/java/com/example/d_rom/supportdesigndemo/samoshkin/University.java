@@ -31,4 +31,8 @@ public class University {
         this.mFaculties = mFaculties;
     }
 
+    private Faculty getFaculty(){
+        Faculty faculty = new Faculty();
+        return faculty;
+    }
 }
