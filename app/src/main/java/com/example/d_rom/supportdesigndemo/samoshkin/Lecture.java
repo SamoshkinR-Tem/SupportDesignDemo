@@ -8,6 +8,9 @@ public class Lecture {
     private String mTitle;
     private String mLecturer;
 
+    public Lecture() {
+    }
+
     public Lecture(String _Title, String _Lecturer) {
         this.mTitle = _Title;
         this.mLecturer = _Lecturer;

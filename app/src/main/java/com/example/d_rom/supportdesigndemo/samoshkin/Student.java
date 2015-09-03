@@ -1,5 +1,7 @@
 package com.example.d_rom.supportdesigndemo.samoshkin;
 
+import java.util.ArrayList;
+
 /**
  * Created by R-Tem on 03.09.2015.
  */
@@ -8,6 +10,7 @@ public class Student {
     private String mName;
     private String mAge;
     private String mHeight;
+    private ArrayList<Lecture> mLectures;
 
     public Student(String _name, String _age) {
         this.mName = _name;
@@ -36,5 +39,18 @@ public class Student {
 
     public void setHeight(String mHeight) {
         this.mHeight = mHeight;
+    }
+
+    public ArrayList<Lecture> getLectures() {
+        return mLectures;
+    }
+
+    public void setLectures(ArrayList<Lecture> mLectures) {
+        this.mLectures = mLectures;
+    }
+
+    public Lecture getLecture(){
+        Lecture lecture = new Lecture();
+        return lecture;
     }
 }
