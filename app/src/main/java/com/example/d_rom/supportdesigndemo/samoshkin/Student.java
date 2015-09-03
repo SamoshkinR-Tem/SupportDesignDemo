@@ -7,6 +7,7 @@ public class Student {
 
     private String mName;
     private String mAge;
+    private String mHeight;
 
     public Student(String _name, String _age) {
         this.mName = _name;
@@ -27,5 +28,13 @@ public class Student {
 
     public void setAge(String mAge) {
         this.mAge = mAge;
+    }
+
+    public String getHeight() {
+        return mHeight;
+    }
+
+    public void setHeight(String mHeight) {
+        this.mHeight = mHeight;
     }
 }
