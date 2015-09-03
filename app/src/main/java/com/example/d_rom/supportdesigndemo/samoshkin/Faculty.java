@@ -33,4 +33,8 @@ public class Faculty {
     public void setStudents(ArrayList<Student> mStudents) {
         this.mStudents = mStudents;
     }
+
+    public boolean checkStudent(){
+        return false;
+    }
 }
