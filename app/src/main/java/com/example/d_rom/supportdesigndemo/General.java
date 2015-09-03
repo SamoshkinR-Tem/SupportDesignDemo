@@ -28,4 +28,8 @@ public class General {
     public void setLawAuthor(String mLawAuthor) {
         this.mLawAuthor = mLawAuthor;
     }
+
+    public void doSomeThing (){
+
+    }
 }
