@@ -10,6 +10,9 @@ public class Faculty {
     private String mFacTitle;
     private ArrayList<Student> mStudents;
 
+    public Faculty() {
+    }
+
     public Faculty(String _FacTitle, ArrayList<Student> _Students) {
         this.mFacTitle = _FacTitle;
         this.mStudents = _Students;
