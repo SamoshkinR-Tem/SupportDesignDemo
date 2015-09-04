@@ -7,6 +7,9 @@ public class EveryThingIsOk {
 
     private String mSlogan;
 
+    public EveryThingIsOk() {
+    }
+
     public EveryThingIsOk(String _Slogan) {
         this.mSlogan = _Slogan;
     }
