@@ -11,11 +11,11 @@ public class EveryThingIsOk {
         this.mSlogan = _Slogan;
     }
 
-    public String getmSlogan() {
+    public String getSlogan() {
         return mSlogan;
     }
 
-    public void setmSlogan(String mSlogan) {
-        this.mSlogan = mSlogan;
+    public void setSlogan(String _Slogan) {
+        this.mSlogan = _Slogan;
     }
 }
